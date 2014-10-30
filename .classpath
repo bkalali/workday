@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.java" including="**/*.java" kind="src" output="target/test-classes" path="src/main/app"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**/*.java" including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**/*.java" including="**/*.java" kind="src" output="target/test-classes" path="src/test/munit"/>
+	<classpathentry kind="con" path="MULE_RUNTIME"/>
+	<classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/assertj/assertj-core/1.5.0/assertj-core-1.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/cometd/java/bayeux-api/2.2.0/bayeux-api-2.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mongodb/bson/3.0.0-SNAPSHOT/bson-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/cometd/java/cometd-java-client/2.2.0/cometd-java-client-2.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/cometd/java/cometd-java-common/2.2.0/cometd-java-common-2.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/easytesting/fest-assert-core/2.0M10/fest-assert-core-2.0M10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/force/api/force-wsc/31.0.0-hf1/force-wsc-31.0.0-hf1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.2/ftplet-api-1.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.2/ftpserver-core-1.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.8.0/jackson-core-asl-1.8.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.8.0/jackson-mapper-asl-1.8.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.5/jaxb-impl-2.1.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-xjc/2.2.5.1/jaxb-xjc-2.2.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-client/7.4.0.v20110414/jetty-client-7.4.0.v20110414.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/7.4.0.v20110414/jetty-http-7.4.0.v20110414.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/7.4.0.v20110414/jetty-io-7.4.0.v20110414.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/7.4.0.v20110414/jetty-util-7.4.0.v20110414.jar"/>
+	<classpathentry kind="var" path="M2_REPO/rhino/js/1.7R2/js-1.7R2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit-dep/4.9/junit-dep-4.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.0-M6/mina-core-2.0.0-M6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/mockobjects/mockobjects-core/0.09/mockobjects-core-0.09.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mongodb/mongo-java-driver/3.0.0-SNAPSHOT/mongo-java-driver-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mongodb/mongo-java-driver-core/3.0.0-SNAPSHOT/mongo-java-driver-core-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/morphia/morphia/0.99.1-SNAPSHOT/morphia-0.99.1-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/tools/devkit/mule-devkit-annotations/3.3.2/mule-devkit-annotations-3.3.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-interceptor-module/3.5-M2/mule-interceptor-module-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-morphia/1.0-SNAPSHOT/mule-module-morphia-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-sfdc/5.3.8/mule-module-sfdc-5.3.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-assert/3.5-M2/munit-assert-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-common/3.5-M2/munit-common-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-mock/3.5-M2/munit-mock-3.5-M2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/munit/munit-runner/3.4-M5/munit-runner-3.4-M5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/reflections/reflections/0.9.8/reflections-0.9.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.0.6.RELEASE/spring-web-3.0.6.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/antlr/ST4/4.0.7/ST4-4.0.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/woodstox/stax2-api/3.0.2/stax2-api-3.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/de/odysseus/staxon/staxon/0.7.0/staxon-0.7.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
